@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Ecommerce Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Ecommerce Store</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Browse Products</a>
+      <a href="cart.html">View Cart</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to <span class="highlight">My Ecommerce Store</span></h1>
+      <p>Shop the latest electronics, fashion, and accessories</p>
+      <a href="products.html" class="cta-button">Browse Products</a>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <main>
+    <h2 class="section-title">Shop by Category</h2>
+    <div class="categories">
+      <div class="category-card" onclick="location.href='products.html?category=electronics'">
+        <img src="images/electronics-icon.jpg" alt="Electronics" />
+        <h3>Electronics</h3>
+      </div>
+      <div class="category-card" onclick="location.href='products.html?category=clothing'">
+        <img src="images/clothing-icon.jpg" alt="Clothing" />
+        <h3>Clothing</h3>
+      </div>
+      <div class="category-card" onclick="location.href='products.html?category=accessories'">
+        <img src="images/accessories-icon.jpg" alt="Accessories" />
+        <h3>Accessories</h3>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 My Ecommerce Store</p>
+  </footer>
+
+</body>
+</html>
